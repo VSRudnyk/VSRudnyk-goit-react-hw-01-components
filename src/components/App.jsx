@@ -1,3 +1,4 @@
+import Container from './Container/Container';
 import Profile from './Social-profile/Profile';
 import Statistics from './Statistics/Statistics';
 import user from '../data/user.json';
@@ -5,7 +6,7 @@ import data from '../data/data.json';
 
 export const App = () => {
   return (
-    <div className="app">
+    <Container>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -16,6 +17,8 @@ export const App = () => {
         likes={user.stats.likes}
       />
       <Statistics title="Upload stats" stats={data} />
-    </div>
+    </Container>
+      
+
   );
 };

@@ -33,13 +33,13 @@
   border-top: 1px solid #898989;
 }
 
-.stats-item {
+.item {
   flex-basis: 33.33333%;
   display: grid;
   padding-bottom: 15px;
 }
 
-.stats-item:not(:last-child) {
+.item:not(:last-child) {
   border-right: 1px solid #898989;
 }
 
