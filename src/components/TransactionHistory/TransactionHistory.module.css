@@ -1,0 +1,31 @@
+.table {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 700px;
+  text-align: center;
+  border: 1px solid #e0e5e8;
+  border-radius: 4px;
+}
+
+.thead {
+  background-color: #00bcd5;
+  color: #ffffff;
+}
+
+tr {
+  height: 40px;
+}
+
+td {
+  border: 1px solid #e0e5e8;
+  border-collapse: collapse;
+}
+
+.row {
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+.row:nth-child(2n + 1) {
+  background-color: #ecf1f4;
+}
