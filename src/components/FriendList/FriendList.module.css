@@ -1,0 +1,35 @@
+.list {
+  margin-top: 25px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  text-align: center;
+  padding: 10px;
+  margin-top: 25px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 1), -23px 0 20px -23px rgba(0, 0, 0, 0.8),
+    23px 0 20px -23px rgba(0, 0, 0, 0.8), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.online {
+  border: 10px solid green;
+  border-radius: 50%;
+}
+
+.offline {
+  border: 10px solid red;
+  border-radius: 50%;
+}
+
+.avatar {
+  margin-left: 10px;
+}
+
+.name {
+  margin-left: 10px;
+  font-size: 25px;
+  font-weight: 500;
+}
